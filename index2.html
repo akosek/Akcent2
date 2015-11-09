@@ -12,34 +12,6 @@
 	<link rel="stylesheet" tyoe="text/css" href="main2.css">
 </head>
 <body>
-<!--<header>
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-	<div class="container">
-		<div class="navbar-header">
-			  <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target="#myNavbar">
-					<span class = "sr-only">Toggle navigation</span>
-					<span class = "icon-bar"></span>
-					<span class = "icon-bar"></span>
-					<span class = "icon-bar"></span>
-			 </button>
-			 <div class="logo-container">
-			   <a class = "navbar-brand" href = "#"></a>
-			 </div>
-		</div>
-		<div class ="navbar-collapse collapse" id="myNavbar">
-			 <ul class = "nav navbar-nav navbar-right">
-					<li class="active"><a href = "#">Oferta</a></li>
-					<li><a href="#">O szkole</a></li>
-					<li><a href="#">Polecają nas</a></li>
-					<li><a href="#">Nasi Lektorzy</a></li>
-					<li><a href="#">Jak uczymy</a></li>
-					<li><a href="#">Aktualności</a></li>
-					<li><a href="#">Kontakt</a></li>
-			 </ul>
-		 </div>
-	</div>
-</div>
-</header> -->
 	<nav class="navbar navbar-default navbar-static-top">
 		<div class="container">
 	   <div class = "navbar-header">
@@ -49,9 +21,7 @@
 	         <span class = "icon-bar"></span>
 	         <span class = "icon-bar"></span>
 	      </button>
-				<div class="logo-container">
-	      <a class = "navbar-brand" href = "#" id="logo"></a>
-			</div>
+	      <a class = "brand pull-left" href = "#"><img src="assets/logo.png" id="logo"></a>
 			</div>
 	   <div class = "collapse navbar-collapse" id="akcent-navbar">
 	      <ul class = "nav navbar-nav navbar-right">
@@ -75,7 +45,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-12 section-header">
-				<h2>Nasza oferta</h2>
+				<h2 id="title">Nasza oferta</h2>
 			</div>
 		</div>
 		<div class="container main-section first-section">
@@ -111,185 +81,157 @@
 					<img src="assets/pi4.png" href"#"/>
 					<h3>Oferty specjalne</h3>
 					<p id="infoRow">Lorem ipsum dolor sit amet enim. Ullamcorper. Suspendisse.</p>
-					<div class="arrow-first">
-						<div class="arrow-up"></div>
-							<button id="siteButton">Dowiedz się więcej</button>
-					</div>
-				</div>
-		</div>
-	</div>
-</div>
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12 section-header">
-			<h2>Jak uczymy</h2>
-		</div>
-	</div>
-	<div class="container main-section">
-		<div class="row">
-			<div class="col-md-4 col-sm-6">
-				<img src="assets/metody.png" href"#"/>
-				<h3>Metody nauczania</h3>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="assets/jezyki.png"  href"#"/>
-				<h3>Język i poziomy</h3>
-				<div class="arrow-box center-block">
-					<div class="arrow-up"></div>
-						<button id="siteButton">Dowiedz się więcej</button>
-				</div>
-			</div>
-			<div class="col-md-4 col-sm-6">
-				<img src="assets/egzaminy.png" href"#" />
-				<h3>Kursy egzaminacyjne</h3>
-			</div>
-		</div>
-	</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 col-sm-12 col-xs-12 two-title">
-				<div class="section-header">
-					<h2>Polecają nas</h2>
-				</div>
-				<div class="recomm-box opinion col-sm-12 col-xs-12">
-					<div id="recomm">
-						<p id="event-info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-						<h4 id="author"><i>Anna Kowalska</i></h4>
-							<div id="recomm">
-								<p id="event-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
-								<h4 id="author"><i>Anna Kowalska</i></h4>
-							</div>
-							<div class="arrow-box arrow-center">
-								<div class="arrow-up" id="arrowRecomm"></div>
-									<button id="seeAll">Zobacz wszystkie</button>
+						<div class="arrow-first">
+							<div class="arrow-up"></div>
+								<button id="siteButton">Dowiedz się więcej</button>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-6 col-sm-12 col-xs-12 two-title">
-					<div class="section-header">
-						<h2>Aktualności</h2>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-12 section-header">
+						<h2>Jak uczymy</h2>
 					</div>
-					<div class="recomm-box opinion">
-						<div id="recomm">
-							<div style="border-bottom: 3px solid #4ca5df; width: 400px">
-								<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet.</span></p>
+				</div>
+				<div class="container main-section">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<img src="assets/metody.png" href"#"/>
+							<h3>Metody nauczania</h3>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<img src="assets/jezyki.png"  href"#"/>
+							<h3>Język i poziomy</h3>
+								<div class="arrow-box center-block">
+									<div class="arrow-up"></div>
+										<button id="siteButton">Dowiedz się więcej</button>
+								</div>
 							</div>
-							<div style="border-bottom: 3px solid #4ca5df; width: 400px">
-								<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+							<div class="col-md-4 col-sm-6">
+								<img src="assets/egzaminy.png" href"#" />
+								<h3>Kursy egzaminacyjne</h3>
 							</div>
-							<div style="border-bottom: 3px solid #4ca5df; width: 400px">
-								<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-md-6 col-sm-12 col-xs-12 two-title">
+							<div class="section-header">
+								<h2>Polecają nas</h2>
 							</div>
-							<div style="border-bottom: 3px solid #4ca5df; width: 400px">
-								<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+							<div class="recomm-box opinion col-sm-12 col-xs-12">
+								<div id="recomm">
+									<p id="event-info"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+									<h4 id="author"><i>Anna Kowalska</i></h4>
+										<div id="recomm">
+											<p id="event-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+											<h4 id="author"><i>Anna Kowalska</i></h4>
+										</div>
+										<div class="arrow-box arrow-center">
+											<div class="arrow-up" id="arrowRecomm"></div>
+												<button id="seeAll">Zobacz wszystkie</button>
+										</div>
+									</div>
+								</div>
 							</div>
-								<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
-								<div class="arrow-box arrow-center">
-									<div class="arrow-up" id="arrowActual"></div>
-									<button id="seeAll">Zobacz wszystkie</button>
+							<div class="col-md-6 col-sm-12 col-xs-12 two-title">
+								<div class="section-header">
+									<h2>Aktualności</h2>
+								</div>
+								<div class="recomm-box opinion">
+									<div id="recomm">
+										<div style="border-bottom: 3px solid #4ca5df; width: 400px">
+											<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet.</span></p>
+										</div>
+										<div style="border-bottom: 3px solid #4ca5df; width: 400px">
+											<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+										</div>
+										<div style="border-bottom: 3px solid #4ca5df; width: 400px">
+											<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+										</div>
+										<div style="border-bottom: 3px solid #4ca5df; width: 400px">
+											<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+										</div>
+											<p id="event-info">2014/01/01<span id="dateInfo">Temat aktualności lorem ipsum dolor sit amet</span></p>
+												<div class="arrow-box arrow-center">
+													<div class="arrow-up" id="arrowActual"></div>
+														<button id="seeAll">Zobacz wszystkie</button>
+												</div>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-			</div>
-		</div>
-	</div>
-	<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12 section-header">
-			<h2>Nasz zespół</h2>
-		</div>
-	</div>
-	<div class="container main-section first-section	">
-		<div class="row">
-			<div class="col-md-12" id="tInfo">
-				<p id="teacherInfo"> Nasi utalentowani lektorzy pochodzą zarówno z Polski, ale także z Irlandii, Szkocji, Anglii, USA, Niemiec oraz Rosji. Aby być najlepszym z najlepszych sami dokształcają się regularnie i wzbogacają swój warsztat metodyczny.Przedstawiamy ich poniżej, ale jeśli tylko masz ochotę, możesz także odwiedzić jeden z naszych oddziałów i poznać ich osobiście.</p>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-				<img src="assets/teach1.png" href"#"/>
-				<h3>Hubert Urbaniak</h3>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-				<img src="assets/teach2.png"  href"#"/>
-				<h3>Katarzyna Kowalska</h3>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-				<img src="assets/teach3.png" href"#" />
-				<h3>Joanna Koroniewska</h3>
-			</div>
-			<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-				<img src="assets/teach4.png" href"#" />
-				<h3>Małgorzata Foremniak</h3>
-			</div>
-			<div class="col-md-12 col-sm-12 col-md-12">
-				<div class="arrow-box" style="text-align:center;">
-					<div class="arrow-up" id="arrowTeacher"></div>
-					<button id="siteButton">Dowiedz się więcej</button>
-				</div>
-			</div>
-		</div>
-	</div>
-	</div>
-<!--	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-6 two-title">
-				<div class="section-header section">
-					<h2 id="news">Skontaktuj się z nami</h2>
-				</div>
-				<div class="end-section">
-					<div class="recomm-box">
-						<div  id="recomm">
-							<p>Biuro szkoły<br/>Os. Zygmunta Starego 6, Poznań<br/>tel.(61)822 57 61<br/>fax (61)822 25 40<br/>e-mail: biuro@akcent-poznan.com.pl</p>
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-md-12 section-header">
+								<h2>Nasz zespół</h2>
+							</div>
+						</div>
+						<div class="container main-section first-section	">
+							<div class="row">
+								<div class="col-md-12" id="tInfo">
+									<p id="teacherInfo"> Nasi utalentowani lektorzy pochodzą zarówno z Polski, ale także z Irlandii, Szkocji, Anglii, USA, Niemiec oraz Rosji. Aby być najlepszym z najlepszych sami dokształcają się regularnie i wzbogacają swój warsztat metodyczny.Przedstawiamy ich poniżej, ale jeśli tylko masz ochotę, możesz także odwiedzić jeden z naszych oddziałów i poznać ich osobiście.</p>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+									<img src="assets/teach1.png" href"#"/>
+									<h3>Hubert Urbaniak</h3>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+									<img src="assets/teach2.png"  href"#"/>
+									<h3>Katarzyna Kowalska</h3>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+									<img src="assets/teach3.png" href"#" />
+									<h3>Joanna Koroniewska</h3>
+								</div>
+								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+									<img src="assets/teach4.png" href"#" />
+									<h3>Małgorzata Foremniak</h3>
+								</div>
+								<div class="col-md-12 col-sm-12 col-md-12">
+									<div class="arrow-box" style="text-align:center;">
+										<div class="arrow-up" id="arrowTeacher"></div>
+										<button id="siteButton">Dowiedz się więcej</button>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
-				</div>
-			</div>
-		<div class="col-md-6 two-title">
-			<div class="section-header section">
-				<h2 id="news">Newsletter</h2>
-			</div>
-			<div class="end-section">
-				<div class="recomm-box">
-					<div id="recomm">
-						<p id="recomm-text">Zachęta do zapisania się do newslettera,<br/> która będzie miała maksymalnie dwie linijki</p>
-							<div class="newsletter-section">
-								<input type="email" id="newsletter" autofocus />
-								<button id="register">Zapisz</button>
+					<footer>
+						<div class="container">
+							<div class="row">
+								<div class="left-space"></div>
+								<div class="right-space"></div>
+									<div class="col-md-6 contact-info">
+										<h3 id="section-title">Skontaktuj się z nami</h3>
+										<ul class="info-list">
+											<li>Biuro szkoły</li>
+											<li>Os. Zygmunta Starego 6, Poznań</li>
+											<li>tel.(61)822 57 61</li>
+											<li>fax (61)822 25 40</li>
+											<li>e-mail: biuro@akcent-poznan.com.pl</li>
+										</ul>
+									</div>
+									<div class="right-space"></div>
+									<div class="left-space"></div>
+										<div class="col-md-6 contact-info">
+											<h3 id="section-title">Newsletter</h3>
+											<p>Zachęta do zapisania się do newslettera,<br/> która będzie miała maksymalnie dwie linijki</p>
+												<div class="newsletter-section">
+													<input type="email" id="newsletter" autofocus />
+														<div class="arrow-box">
+															<div class="arrow-register"></div>
+																<button id="registerButton">Zapisz</button>
+														</div>
+												</div>
+										</div>
 							</div>
-					</div>
-				</div>
-				</div>
-			</div>
-		</div>
-	</div> -->
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="right-space"></div>
-					<div class="left-space"></div>
-				<div class="col-md-6 contact-info">
-						<h3 id="section-title">Skontaktuj się z nami</h3>
-						<ul class="info-list">
-							<li>Biuro szkoły</li>
-							<li>Os. Zygmunta Starego 6, Poznań</li>
-							<li>tel.(61)822 57 61</li>
-							<li>fax (61)822 25 40</li>
-							<li>e-mail: biuro@akcent-poznan.com.pl</li>
-						</ul>
-					</div>
-					<div class="left-space"></div>
-					<div class="col-md-6 contact-info">
-							<h3 id="section-title">Newsletter</h3>
-							<p>Zachęta do zapisania się do newslettera,<br/> która będzie miała maksymalnie dwie linijki</p>
-							<div class="newsletter-section">
-								<input type="email" id="newsletter" autofocus />
-								<button>Zapisz</button>
-							</div>
-					</div>
-			</div>
-		</div>
-	</footer>
-</body>
+					 	</div>
+					</footer>
+		</body>
 </html>
