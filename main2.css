@@ -148,9 +148,13 @@ text-align:justify;
 	badding-bottom:40px;
 }
 
- /*#logo{
-	padding-bottom:30px;
-}*/
+ .logo-container >a{
+	background-image: url('assets/logo.png');
+	width: 242px;
+	height: 100%;
+	display:block;
+	text-indent: -9999px;
+}
 
 .end-section {
 	background-color: #f19202;
