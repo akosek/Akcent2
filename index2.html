@@ -24,7 +24,7 @@
 	      <a class = "brand pull-left" href = "#"><img src="assets/logo.png" id="logo"></a>
 			</div>
 	   <div class = "collapse navbar-collapse" id="akcent-navbar">
-	      <ul class = "nav navbar-nav navbar-right">
+	      <ul class = "nav navbar-nav navbar-right" id="menu-list">
 	         <li><a href = "#">Oferta</a></li>
 					 <li><a href="#">O szkole</a></li>
 					 <li><a href="#">Polecają nas</a></li>
@@ -42,17 +42,13 @@
 					</div>
 			</div>
 	</header>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12 section-header">
-				<h2 id="title">Nasza oferta</h2>
-			</div>
-		</div>
+	<section class="offert-info">
+		<h2 id="title">Nasza oferta</h2>
 		<div class="container main-section first-section">
 			<div class="row">
 				<div class="col-xs-12 col-sm-6 col-md-3">
 						<img src="assets/pi1.png" href"#"/>
-						<h3>Kursy dla osób indywidualnych </h3>
+						<h3 id="titleBlue">Kursy dla osób indywidualnych </h3>
 						<p>Lorem ipsum dolor sit amet enim. Ullamcorper, suspendisse.</p>
 					<div class="arrow-first">
 						<div class="arrow-up"></div>
@@ -61,7 +57,7 @@
 				 </div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="assets/pi2.png" href"#"/>
-					<h3>Kurs dla firm</h3>
+					<h3 id="titleBlue">Kursy dla firm</h3>
 					<p id="infoRow">Lorem ipsum dolor sit amet enim. Ullamcorper, suspendisse.</p>
 					<div class="arrow-first">
 						<div class="arrow-up arrow-left"></div>
@@ -70,7 +66,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="assets/pi3.png" href"#"/>
-					<h3>Wyjazdy językowe</h3>
+					<h3 id="titleBlue">Wyjazdy językowe</h3>
 					<p id="infoRow">Lorem ipsum dolor sit amet enim. Ullamcorper. Suspendisse.</p>
 					<div class="arrow-first">
 						<div class="arrow-up arrow-left"></div>
@@ -79,7 +75,7 @@
 				</div>
 				<div class="col-xs-12 col-sm-6 col-md-3">
 					<img src="assets/pi4.png" href"#"/>
-					<h3>Oferty specjalne</h3>
+					<h3 id="titleBlue">Oferty specjalne</h3>
 					<p id="infoRow">Lorem ipsum dolor sit amet enim. Ullamcorper. Suspendisse.</p>
 						<div class="arrow-first">
 							<div class="arrow-up"></div>
@@ -88,39 +84,35 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="container-fluid">
-				<div class="row">
-					<div class="col-md-12 section-header">
-						<h2>Jak uczymy</h2>
-					</div>
-				</div>
-				<div class="container main-section">
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<img src="assets/metody.png" href"#"/>
-							<h3>Metody nauczania</h3>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<img src="assets/jezyki.png"  href"#"/>
-							<h3>Język i poziomy</h3>
-								<div class="arrow-box center-block">
-									<div class="arrow-up"></div>
-										<button id="siteButton">Dowiedz się więcej</button>
-								</div>
+			</section>
+			<section class="learn-info">
+				<h2 id="title">Jak uczymy</h2>
+					<div class="container main-section first-section">
+						<div class="row">
+							<div class="col-md-4 col-sm-6">
+								<img src="assets/metody.png" href"#"/>
+								<h3>Metody nauczania</h3>
 							</div>
 							<div class="col-md-4 col-sm-6">
-								<img src="assets/egzaminy.png" href"#" />
-								<h3>Kursy egzaminacyjne</h3>
+								<img src="assets/jezyki.png"  href"#"/>
+								<h3>Język i poziomy</h3>
+									<div class="arrow-box center-block">
+										<div class="arrow-up"></div>
+											<button id="siteButton">Dowiedz się więcej</button>
+										</div>
+								</div>
+								<div class="col-md-4 col-sm-6">
+									<img src="assets/egzaminy.png" href"#" />
+									<h3>Kursy egzaminacyjne</h3>
+								</div>
 							</div>
 						</div>
-					</div>
-				</div>
+				</section>
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-md-6 col-sm-12 col-xs-12 two-title">
 							<div class="section-header">
-								<h2>Polecają nas</h2>
+								<h2 id="titleMiddle">Polecają nas</h2>
 							</div>
 							<div class="recomm-box opinion col-sm-12 col-xs-12">
 								<div id="recomm">
@@ -130,7 +122,7 @@
 											<p id="event-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
 											<h4 id="author"><i>Anna Kowalska</i></h4>
 										</div>
-										<div class="arrow-box arrow-center">
+										<div class="arrow-box arrow-center" id="seeButton">
 											<div class="arrow-up" id="arrowRecomm"></div>
 												<button id="seeAll">Zobacz wszystkie</button>
 										</div>
@@ -139,7 +131,7 @@
 							</div>
 							<div class="col-md-6 col-sm-12 col-xs-12 two-title">
 								<div class="section-header">
-									<h2>Aktualności</h2>
+									<h2 id="titleMiddle">Aktualności</h2>
 								</div>
 								<div class="recomm-box opinion">
 									<div id="recomm">
@@ -165,44 +157,41 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="container-fluid">
-						<div class="row">
-							<div class="col-md-12 section-header">
-								<h2>Nasz zespół</h2>
-							</div>
-						</div>
-						<div class="container main-section first-section	">
-							<div class="row">
-								<div class="col-md-12" id="tInfo">
-									<p id="teacherInfo"> Nasi utalentowani lektorzy pochodzą zarówno z Polski, ale także z Irlandii, Szkocji, Anglii, USA, Niemiec oraz Rosji. Aby być najlepszym z najlepszych sami dokształcają się regularnie i wzbogacają swój warsztat metodyczny.Przedstawiamy ich poniżej, ale jeśli tylko masz ochotę, możesz także odwiedzić jeden z naszych oddziałów i poznać ich osobiście.</p>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-									<img src="assets/teach1.png" href"#"/>
-									<h3>Hubert Urbaniak</h3>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-									<img src="assets/teach2.png"  href"#"/>
-									<h3>Katarzyna Kowalska</h3>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-									<img src="assets/teach3.png" href"#" />
-									<h3>Joanna Koroniewska</h3>
-								</div>
-								<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
-									<img src="assets/teach4.png" href"#" />
-									<h3>Małgorzata Foremniak</h3>
-								</div>
-								<div class="col-md-12 col-sm-12 col-md-12">
-									<div class="arrow-box" style="text-align:center;">
-										<div class="arrow-up" id="arrowTeacher"></div>
-										<button id="siteButton">Dowiedz się więcej</button>
+					<section class="team-info">
+						<h2 id="title">Nasz zespół</h2>
+						<div class="container main-section first-section">
+								<div class="row">
+										<div class="col-md-12" id="tInfo">
+											<p id="teacherInfo"> Nasi utalentowani lektorzy pochodzą zarówno z Polski, ale także z Irlandii, Szkocji, Anglii, USA, Niemiec oraz Rosji. Aby być najlepszym z najlepszych sami dokształcają się regularnie i wzbogacają swój warsztat metodyczny.Przedstawiamy ich poniżej, ale jeśli tylko masz ochotę, możesz także odwiedzić jeden z naszych oddziałów i poznać ich osobiście.</p>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+											<img src="assets/teach1.png" href"#"/>
+											<h3>Hubert Urbaniak</h3>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+											<img src="assets/teach2.png"  href"#"/>
+											<h3>Katarzyna Kowalska</h3>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+											<img src="assets/teach3.png" href"#" />
+											<h3>Joanna Koroniewska</h3>
+										</div>
+										<div class="col-xs-12 col-sm-6 col-md-3 how-pics">
+											<img src="assets/teach4.png" href"#" />
+											<h3>Małgorzata Foremniak</h3>
+										</div>
+										<div class="col-md-12 col-sm-12 col-md-12">
+											<div class="arrow-box" style="text-align:center;">
+												<div class="arrow-up" id="arrowTeacher"></div>
+													<button id="siteButton">Dowiedz się więcej</button>
+												</div>
+										</div>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-					<footer>
+							</section>
+						<footer>
 						<div class="container">
 							<div class="row">
 								<div class="left-space"></div>
@@ -224,14 +213,13 @@
 											<p>Zachęta do zapisania się do newslettera,<br/> która będzie miała maksymalnie dwie linijki</p>
 												<div class="newsletter-section">
 													<input type="email" id="newsletter" autofocus />
-														<div class="arrow-box">
 															<div class="arrow-register"></div>
 																<button id="registerButton">Zapisz</button>
 														</div>
 												</div>
 										</div>
-							</div>
+								</div>
 					 	</div>
-					</footer>
+				</footer>
 		</body>
 </html>
